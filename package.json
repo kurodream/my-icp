@@ -1,0 +1,19 @@
+{
+  "name": "my-gitbook-plugin",
+  "version": "1.0.0",
+  "description": "My custom GitBook plugin",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">=3.0.0"
+  },
+  "gitbook": {
+    "properties": {
+      "customParam": {
+        "required": true,
+        "title": "Custom Parameter",
+        "type": "string",
+        "default": "default-value"
+      }
+    }
+  }
+}

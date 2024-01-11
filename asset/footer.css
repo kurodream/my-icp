@@ -1,0 +1,59 @@
+.kuro-footer {
+    /* 优化文本渲染以提高可读性 */
+    text-rendering: optimizelegibility;
+    /* 设置字符之间的间距为0.2像素 */
+    letter-spacing: 0.2px;
+    /* 指定字体系列，按照给定的顺序寻找可用字体 */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* 当单词过长而无法放在一行时，强制进行换行 */
+    overflow-wrap: break-word;
+    /* 移动设备上点击时的高亮颜色设为透明 */
+    -webkit-tap-highlight-color: transparent;
+    /* 禁止浏览器自动调整文本大小以适应视口 */
+    text-size-adjust: none;
+    /* 在WebKit浏览器中启用字体抗锯齿 */
+    -webkit-font-smoothing: antialiased;
+    /* 将元素显示为块级元素，使其在页面上独占一行 */
+    display: block;
+    /* 设置元素的盒模型为边框盒模型，包括内边距和边框在内 */
+    box-sizing: border-box;
+    /* 设置元素的上外边距为50像素 */
+    margin-top: 50px;
+    /* 将文本居中对齐 */
+    text-align: center;
+    /* 设置行高为30像素，控制文本行之间的垂直间距 */
+    line-height: 30px;
+    /* 设置文本的字体大小为14像素 */
+    font-size: 14px;
+    /* 设置文本颜色为RGB(115, 119, 122) */
+    color: rgb(115, 119, 122);
+    /* 在元素顶部添加1像素宽的实线边框，颜色为RGB(204, 204, 204) */
+    border-top: 1px solid rgb(204, 204, 204);
+    /* 隐藏元素溢出的部分 */
+    overflow: hidden;
+    /* 设置元素的上下内边距为10像素，左右内边距为0像素 */
+    padding: 10px 0px;
+    /* 设置元素的下外边距为0像素，并使用!important规则以确保覆盖其他可能存在的样式 */
+    margin-bottom: 0px !important;
+    /* 为footer添加背景色，方便观察效果 */
+    background-color: #f2f2f2;
+}
+
+  
+  .kuro-footer .icp {
+    text-align: center; /* 文本水平居中 */
+    align-items: center; /* 元素垂直居中 */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .kuro-footer .icp a {
+    color: #53636d; /* 修改文字颜色 */
+    text-decoration: none; /* 删除下划线 */
+    margin-right: 20px; /* 控制图标和文本之间的间距 */
+  }
+  
+  .kuro-footer .icp img {
+    width: 16px;
+    margin-right: 5px; /* 控制图标和文本之间的间距 */
+}
